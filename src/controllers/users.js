@@ -9,7 +9,8 @@ const getUser = (request, response) => {
 };
 
 const createUser = (request, response) => {
-// kkl
+  response.status(201);
+  response.send(request.bodynp);
 };
 
 const updateUser = (request, response) => {
